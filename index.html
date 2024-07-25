@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Doughnut Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+
+            <figure>
+                <img src="./imgs/elena-koycheva-PFzy4N0_R3M-unsplash.jpg" alt="Doughnuts" width="350" height="270">
+                <figcaption>Doughnuts</figcaption>
+            </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
+            <h2>About Dee's Pastry</h2>
+            <p>Dee's Pastry was founded in <time datetime="2022">2022</time>. Our shop was established from a passion for baking and making<strong>pastries</strong>🍩🍩🍩. We hope our shop creats a unique and intresting place for pastry lovers.</p>
+            <aside>
+                <h3>Doughnut Trivia</h3>
+                <details>
+                    <summary>When and how were doughnuts first start?</summary>
+                    <p>The history of the doughnut itself is generally traced to Dutch immigrants in 17th- and 18th-century New York, then New Netherland, who prepared fried dough balls called olie koeken or olykoeks, which means “oil cakes.” They were similar to modern doughts, although they did not yet have the iconic ring shape.</p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu">
+            <h2>Our Menu</h2>
+            <table border="1">
+                <thead>
+                    <caption>Our Doughnuts</caption>
+                    <tr>
+                        <th>Doughnuts</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">Yummy</th>
+                        <td>1</td>
+                        <td>$2.58</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$4.58</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$6.58</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">Sweet</th>
+                        <td>1</td>
+                        <td>$3.58</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$6.58</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$8.58</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Doughnut holes &amp; Milk $3
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Dees Pastry</p>
+    </footer>
+</body>
+</html>
