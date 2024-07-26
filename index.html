@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css project</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./imgs/WhatsApp Image 2024-07-26 at 08.32.15.jpeg" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -26,11 +27,11 @@
     <main>
         <article id="about">
             <h2>About Dee's Pastry</h2>
-            <p>Dee's Pastry was founded in <time datetime="2022">2022</time>. Our shop was established from a passion for baking and making<strong>pastries</strong>🍩🍩🍩. We hope our shop creats a unique and intresting place for pastry lovers.</p>
+            <p>Dee's Pastry was founded in <time datetime="2022">2022</time>. Our shop was established from a passion for baking and making<strong> pastries</strong>🍩🍩🍩. We hope our shop creats a unique and intresting place for pastry lovers.</p>
             <aside>
                 <h3>Doughnut Trivia</h3>
                 <details>
-                    <summary>When and how were doughnuts first start?</summary>
+                    <summary>When and how were doughnuts first made?</summary>
                     <p>The history of the doughnut itself is generally traced to Dutch immigrants in 17th- and 18th-century New York, then New Netherland, who prepared fried dough balls called olie koeken or olykoeks, which means “oil cakes.” They were similar to modern doughts, although they did not yet have the iconic ring shape.</p>
                 </details>
             </aside>
@@ -38,7 +39,14 @@
         <hr>
         <article id="menu">
             <h2>Our Menu</h2>
-            <table border="1">
+            <style>
+                table, tr, th, td, caption {
+                    border: 1px solid;
+                    border-collapse: collapse;
+                    padding: 0.4rem;
+                }
+            </style>
+            <table>
                 <thead>
                     <caption>Our Doughnuts</caption>
                     <tr>
