@@ -25,7 +25,7 @@ input, button, textarea {
     --FS: clamp(1rem, 2.2vh, 1.5rem);
 
     /* /* COLORS */
-    --BGCOLOR: #763e66;
+    --BGCOLOR: #67aef5;
     --BGCOLOR-FADE: rgba(177, 143, 168, 0.952);
     --BGIMAGE: linear-gradient(var(--BGCOLOR), var(--BGCOLOR-FADE));
     --BODY-BGCOLOR: white;
@@ -38,7 +38,8 @@ input, button, textarea {
     --HEADER-BGCOLOR: #5eaaf7;
     --HEADER-COLOR: white;
     --NAV-BGCOLOR: white;
-
+    --HERO-BGCOLOR: rgba(94, 170, 247, 0.75);
+    --HERO-COLOR:white;
     /* /* BORDERS */
     --BORDERS: 1px solid var(--BORDER-COLOR);
 
@@ -130,6 +131,34 @@ a:active {
     display: flex;
     justify-content: space-evenly;
     gap: 1rem;
+}
+.hero {
+    position: relative;
+}
+.hero__h2 {
+    background-color: var(--HERO-BGCOLOR);
+    color: var(--HERO-COLOR);
+    padding: 0.25em 0.5em;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 5px var(--BORDER-COLOR);
+    position: absolute;
+    left: 20px;
+    top: -100px;
+    animation: showWelcome 0.5s ease-in-out 1s forwards;
+}
+@keyframes showWelcome {
+    0% {
+        top: -20%;
+        transform: skew(0deg, -5deg);
+    }
+    80% {
+        top: 30px;
+        transform: skew(10deg, -5deg) scaleY(1.2);
+    }
+    100% {
+        top: 20px;
+        transform: skew(0deg, -5deg) scaleY(1);
+    }
 }
 
 
