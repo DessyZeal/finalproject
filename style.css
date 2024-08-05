@@ -160,7 +160,13 @@ a:active {
         transform: skew(0deg, -5deg) scaleY(1);
     }
 }
-
+/* FOOTER */
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+}
 
 
 
