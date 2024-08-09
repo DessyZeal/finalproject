@@ -220,30 +220,31 @@ a:active {
     border: none;
 }
 /* MENU */
-thead, tbody, tfoot, tr {
-    display: contents;
+/* #table-container {
+    width: 80%;
+    border-collapse: collapse;
+
 }
-.menu__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-        "hd1 hd2 hd3"
-        "st st1 st1p"
-        "st st2 st2p"
-        "st st3 st3p"
-        "cho cho1 cho1p"
-        "cho cho2 cho2p"
-        "cho cho3 cho3p"
-        "hol hol hol";
-    gap: 0.1em ;
-    margin-bottom: 1em;
+#table-container td,
+#table-container th {
+    border: 1px solid var(--BORDER-COLOR);
+    padding: 8px;
+}
+#table-container th {
+    text-align: center;
+}
+#table-container tr {
+    text-align: center;
 }
 
 
 
 
+ */
 
-
+table, tr, th, td, caption {
+    /* border: 1px solid; */
+}
 
 
 
