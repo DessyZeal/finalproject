@@ -51,22 +51,6 @@ input, button, textarea {
     --MARGIN: clamp(1em, 2.5vh,1.5em) 0;
 
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --BGCOLOR: black;
-        --BGCOLOR-FADE: gray;
-        --HEADER-COLOR: whitesmoke;
-        --NAV-BGCOLOR:  rgb(20, 20, 20);
-        --HERO-COLOR:  rgb(41, 38, 38);
-        --BODY-BGCOLOR: rgb(41, 38, 38);
-        --FONT-COLOR: whitesmoke;
-        --HIGHLIGHT-COLOR: whitesmoke;
-        --BORDER-COLOR:whitesmoke;
-        --LINK-COLOR: whitesmoke;
-        --LINK-HOVER: #5eaaf7;
-        --HEADER-BGCOLOR: black;
-    }
-}
 
 /* UTILITY CLASSES */
 .offscreen {
